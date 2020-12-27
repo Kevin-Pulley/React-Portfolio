@@ -1,0 +1,21 @@
+.container {
+    background-color: #fff;
+    text-align: center;
+}
+
+.github {
+    size: 3x;
+    color: red;
+}
+
+.email {
+    size: 3x;
+    padding: 2rem;
+}
+
+
+
+.fa-envelope {
+    color: black;
+    size: 3x;
+}

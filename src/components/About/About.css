@@ -1,0 +1,19 @@
+.about {
+    background-color: #fff;
+}
+
+.header {
+    text-align: center;
+    color: red;
+}
+
+.about_content {
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: large;
+    font-weight: 200;
+  
+}
