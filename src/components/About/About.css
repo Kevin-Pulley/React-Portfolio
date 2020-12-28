@@ -1,10 +1,11 @@
 .about {
-    background-color: #fff;
+    background-color: gray;
+    text-align: center;
 }
 
 .header {
     text-align: center;
-    color: red;
+    color: #fff;
 }
 
 .about_content {
@@ -15,5 +16,14 @@
     text-align: center;
     font-size: large;
     font-weight: 200;
-  
+}
+
+ul {
+    text-align: center;
+}
+
+li {
+   
+    list-style-type: none;
+    justify-content: center;
 }

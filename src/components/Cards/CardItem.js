@@ -6,7 +6,7 @@ function CardItem(props) {
     <>
       <li className="cards__item">
         <div className="cards__item__link">
-          <a href={props.link}>
+          <a href={props.deployed}>
             <figure
               className="cards__item__pic-wrap"
               data-category={props.label}

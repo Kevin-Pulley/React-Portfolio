@@ -18,6 +18,7 @@ function App() {
           <Route path="/about" exact component={About}/>
           <Route path="/contact" exact component={Footer}/>
         </Switch>
+      
 
       </Router>
     </>
@@ -25,3 +26,5 @@ function App() {
 }
 
 export default App;
+
+
