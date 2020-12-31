@@ -116,9 +116,10 @@
 
 @media screen and (max-width: 960px) {
     .cards__header {
-        font-size: 23px;
+        font-size: 26px;
         padding: 5rem;
         display: flex;
+        text-align: center;
     }
 }
 

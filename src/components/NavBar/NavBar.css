@@ -81,7 +81,9 @@
     .NavbarItems {
         position: sticky;
     }
-
+    .fa-bars{
+        padding-right: 10px;
+    }
     .nav-menu {
         background-color: black;
         display: flex;
@@ -135,6 +137,7 @@
     .fa-times {
         color: #fff;
         font-size: 2rem;
+        padding-right:10px;
     }
     .nav-links-mobile {
         display: block;
@@ -156,6 +159,6 @@
         transition: 250ms;
     }
     .navbar{
-        position: sticky;
+        width:98vw;
     }
 }

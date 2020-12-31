@@ -42,7 +42,7 @@ function Navbar() {
           </Link>
 
           <div className="menu-icon" onClick={handleClick}>
-            <i className={click ? "fas fa-bars" :"fas fa-times"  } />
+            <i className={click ? "fas fa-bars": "fas fa-times"  } />
           </div>
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
