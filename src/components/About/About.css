@@ -3,6 +3,7 @@
     text-align: center;
     /* margin: -5px; */
     padding-bottom: 20px;
+    margin:-22px;
 }
 
 .about__header {
@@ -21,25 +22,23 @@
     font-weight: 300;
 }
 
-ul{
+.list {
     text-align: center;
     margin: 0;
-
 }
 
-li {
+.list li {
     list-style-type: none;
     justify-content: center;
     padding-bottom: 5px;
     display: inline-flex-vertical;
 }
 
-h2 {
-    
+.about__h2 {
     color: rgb(200, 0, 40)
 }
 
-i{
+.footer__icons > i {
     padding: 15px;
     margin-right: 50px;
 }

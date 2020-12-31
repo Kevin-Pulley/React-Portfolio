@@ -1,8 +1,7 @@
+
 import React, { useState, useEffect } from "react";
 import "./NavBar.css";
 import { Link, animateScroll as scroll } from "react-scroll";
-
-
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -43,10 +42,9 @@ function Navbar() {
           </Link>
 
           <div className="menu-icon" onClick={handleClick}>
-            <i className={click ? "fas fa-times" : "fas fa-bars"} />
+            <i className={click ? "fas fa-bars" :"fas fa-times"  } />
           </div>
           <ul className={click ? "nav-menu active" : "nav-menu"}>
-            
             <li className="nav-item">
               <Link
                 className="nav-links"
