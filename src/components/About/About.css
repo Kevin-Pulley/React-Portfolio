@@ -1,29 +1,45 @@
 .about {
     background-color: gray;
     text-align: center;
+    /* margin: -5px; */
+    padding-bottom: 20px;
 }
 
-.header {
+.about__header {
     text-align: center;
     color: #fff;
+    padding: 2rem;
 }
 
-.about_content {
+.about__content {
     padding: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     font-size: large;
-    font-weight: 200;
+    font-weight: 300;
 }
 
-ul {
+ul{
     text-align: center;
+    margin: 0;
+
 }
 
 li {
-   
     list-style-type: none;
     justify-content: center;
+    padding-bottom: 5px;
+    display: inline-flex-vertical;
+}
+
+h2 {
+    
+    color: rgb(200, 0, 40)
+}
+
+i{
+    padding: 15px;
+    margin-right: 50px;
 }

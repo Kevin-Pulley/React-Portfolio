@@ -5,7 +5,7 @@ import CardItem from "./CardItem";
 function Cards() {
   return (
     <div className="cards" id="cards">
-      <h1>Check Out My Projects!!</h1>
+      <h1 className="cards__header">Check Out My Projects!!</h1>
       <div className="cards__container">
         <div className="cards__wrapper">
           <ul className="cards__items">
@@ -35,7 +35,7 @@ function Cards() {
           <ul className="cards__items">
             <CardItem
               src="images/SuperheroProject.png"
-              text="My Superhero Search Project"
+              text="My Superhero "
               label="Superhero Project"
               path="/services"
               link="https://github.com/Kevin-Pulley/Super-Heroes"

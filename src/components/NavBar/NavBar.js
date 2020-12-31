@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
-
-import { Button } from "../Button/Button";
 import "./NavBar.css";
 import { Link, animateScroll as scroll } from "react-scroll";
+
+
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -39,13 +39,14 @@ function Navbar() {
             duration={800}
           >
             Kevin Pulley
-            <i class="fab fa-typo3" />
+            <i class="far fa-keyboard"></i>
           </Link>
 
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"} />
           </div>
           <ul className={click ? "nav-menu active" : "nav-menu"}>
+            
             <li className="nav-item">
               <Link
                 className="nav-links"

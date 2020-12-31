@@ -1,5 +1,6 @@
 import React from "react";
 //import { Link } from "react-router-dom";
+import "./Cards.css";
 
 function CardItem(props) {
   return (
@@ -13,22 +14,21 @@ function CardItem(props) {
             >
               <img
                 src={props.src}
-                alt="profile pic"
+                alt="project pic"
                 className="cards__item__img"
               />
             </figure>
           </a>
           <div className="cards__item__info">
             <h5 className="cards__item__text">{props.text}</h5>
-            <form>
-              <button formaction={props.deployed}>
+            <form className="link__buttons">
+              <button className="gitbutton" formAction={props.deployed}>
                 <i class="fab fa-github"></i> Deployed
               </button>
-            <button formaction={props.link}>
-              <i class="fab fa-github"></i> Repo
-            </button>
+              <button className="gitbutton"  formAction={props.link}>
+                <i class="fab fa-github"></i> Repo
+              </button>
             </form>
-         
           </div>
         </div>
       </li>

@@ -1,21 +1,46 @@
-.container {
+.footer__container {
     background-color: #fff;
     text-align: center;
+    position: sticky;
+    bottom: 0;
 }
 
-.github {
+.column {
+    margin-top: 5px;
+}
+
+.footer__github {
     size: 1x;
     color: red;
 }
 
-.email {
-    size: 3x;
+.footer__email {
     padding: 2rem;
 }
 
-
-
 .fa-envelope {
-    color: black;
-    size: 3x;
+    color: blue;
+}
+
+.github-text > i {
+    padding-top: 3px;
+}
+
+@media screen and (max-width: 960px) {
+    h1 {
+        font-size: 70px;
+        margin-top: -150px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 50px;
+        margin-top: -100px;
+    }
+    i {
+        height: 12px;
+        width: 12px;
+    }
+  
 }

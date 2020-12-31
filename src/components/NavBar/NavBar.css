@@ -8,7 +8,6 @@
     position: sticky;
     top: 0;
     z-index: 999;
-    pointer: cursor;
 }
 
 .navbar-container {
@@ -30,7 +29,8 @@
     align-items: center;
 }
 
-.fa-typo3 {
+.fa-keyboard{
+    
     margin-left: 0.5rem;
     font-size: 1.8rem;
 }
@@ -38,12 +38,13 @@
 .nav-menu {
     display: grid;
     grid-template-columns: repeat(4, auto);
-    grid-gap: 10px;
+    grid-gap: 5px;
     list-style: none;
     text-align: center;
     width: 60vw;
-    justify-content: end;
+    justify-content: right;
     margin-right: 2rem;
+    margin-left: 400px;
 }
 
 .nav-item {
