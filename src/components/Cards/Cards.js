@@ -34,25 +34,28 @@ function Cards() {
           </ul>
           <ul className="cards__items">
             <CardItem
-              src="images/SuperheroProject.png"
-              text="My Superhero "
-              label="Superhero Project"
+              src="images/Employee.png"
+              text="Employee Directory"
+              label="Employee Directory"
               path="/services"
-              link="https://github.com/Kevin-Pulley/Super-Heroes"
+              link="https://github.com/Kevin-Pulley/Employee-Directory"
+              deployed="https://kevin-pulley.github.io/Employee-Directory/"
             />
             <CardItem
-              src="images/Planner.png"
-              text="Day Planner"
-              label="Day Planner"
+              src="images/HearthstoneApp.png"
+              text="Hearthstone Finder"
+              label="Hearthstone"
               path="/services"
-              link="https://github.com/Kevin-Pulley/Day-Planner"
+              link="https://github.com/Kevin-Pulley/Budget-Tracker"
+              deployed="https://project2madness.herokuapp.com/"
             />
             <CardItem
-              src="images/weather.jpg"
-              text="My Weather App"
-              label="Weather App"
+              src="images/screenshot.png"
+              text="Budget Tracker"
+              label="Budget Tracker"
               path="/services"
-              link="https://github.com/Kevin-Pulley/Weather-Dashboard"
+              link="https://github.com/Kevin-Pulley/Budget-Tracker"
+              deployed="https://dashboard.heroku.com/apps/desolate-hollows-71779"
             />
           </ul>
         </div>
