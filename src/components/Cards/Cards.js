@@ -10,7 +10,7 @@ function Cards() {
         <div className="cards__wrapper">
           <ul className="cards__items">
             <CardItem
-              src="../images/SuperheroProject.png"
+              src="images/SuperheroProject.png"
               text="Superhero Project"
               label="Superhero Project"
               link="https://github.com/Kevin-Pulley/Super-Heroes"
