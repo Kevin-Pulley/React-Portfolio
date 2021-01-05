@@ -31,7 +31,7 @@ function App() {
           exact
           component={Footer}
         />
-        BrowserRouter basename="/react-portfolio"
+        
       </Router>
     </>
   );
